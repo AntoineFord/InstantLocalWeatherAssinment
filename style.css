@@ -1,0 +1,81 @@
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  margin-top: 30px;
+  color: #666;
+}
+
+/* Location List */
+.location-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.location-list li {
+  margin-bottom: 5px;
+}
+
+#pastLocation {
+  margin-left: 3px;
+}
+
+/* Example icon styles */
+.weather-icon {
+  font-size: 24px;
+  margin-right: 5px;
+}
+
+/* Forecast container styles */
+.forecast {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+#results {
+  visibility: hidden;
+}
+
+/* Day container styles */
+.day {
+  margin-bottom: 10px;
+}
+
+/* Temperature styles */
+p {
+  margin: 5px 0;
+}
+
+span {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Example condition-specific styles */
+#currentCondition {
+  color: #FF4500; /* Orange color for current condition */
+}
+
+#day1Condition {
+  color: #4169E1; /* Blue color for condition of day 1 */
+}
+
+#day2Condition {
+  color: #808080; /* Gray color for condition of day 2 */
+}
+
+/* Add any additional custom CSS styles here */
